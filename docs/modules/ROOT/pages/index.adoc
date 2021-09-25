@@ -1,0 +1,19 @@
+= gh invite
+
+A https://cli.github.com/:[GitHub CLI] extension that lets you send and accept GitHub repository invites without going through the GitHub website, emails, and sudo mode prompts.
+
+== Send an invite
+
+ $ gh invite send <user>
+
+== List invites sent to me
+
+ $ gh invite list
+ 54799225 dtinth/typescript-library-template (write)
+
+== Accept an invite
+
+ $ gh invite accept <id>
+
+TIP: To use GitHub CLI as another user, you can set the `GITHUB_TOKEN` environment variable to a personal access token.
+For example, using Fish in macOS with the personal access token in the pasteboard: `set -gx GITHUB_TOKEN (pbpaste)`
