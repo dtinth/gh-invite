@@ -1,5 +1,5 @@
-name: gh invite
+name: gh-invite
 version: master
-title: 'gh-invite'
+title: 'gh invite'
 nav:
   - modules/ROOT/nav.adoc
